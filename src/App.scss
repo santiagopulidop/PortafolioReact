@@ -1,0 +1,64 @@
+body {
+  padding: 0;
+}
+
+.imgContainer {
+  .photo {
+    width: 35%;
+    border: 3px darkgrey solid;
+  }
+}
+.hero {
+  border: red solid 1px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#intro {
+  animation-name: example;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes example {
+  from {
+    position: fixed;
+    top: -20px;
+    opacity: 0.2;
+  }
+  to {
+    position: fixed;
+    top: 50%;
+    opacity: 0.5;
+  }
+}
+
+.sobreMi {
+  width: 100vw;
+  max-width: 70%;
+  margin: 8% auto 0 auto;
+}
+.habilidades {
+  width: 100vw;
+  max-width: 70%;
+  margin: 2% auto;
+}
+
+.habilidades .habilidad {
+  max-height: 120px;
+}
+
+#portafolio {
+  margin: 8% 20px;
+  max-height: 100vh;
+
+  .card {
+    width: 18rem;
+  }
+  div .proyecto {
+    border: red, solid 5px;
+  }
+}
