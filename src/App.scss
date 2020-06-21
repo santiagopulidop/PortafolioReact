@@ -62,3 +62,32 @@ body {
     border: red, solid 5px;
   }
 }
+
+#portafolio-container {
+  width: 100vw;
+  max-width: 90%;
+  display: flex;
+
+  justify-content: space-around;
+  margin: 6% auto 0 auto;
+  flex-wrap: wrap;
+  .project {
+    margin: 25px;
+    top: 5%;
+    &:hover {
+      animation-name: pulse;
+      animation-duration: 0.8s;
+      border: 1px black solid;
+
+      .project-name {
+        font-weight: bold;
+      }
+    }
+    .img-project {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: -12px;
+      backface-visibility: visible;
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import "animate.css";
 import "./App.scss";
 import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
