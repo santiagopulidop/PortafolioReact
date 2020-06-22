@@ -139,6 +139,9 @@ body {
   align-items: center;
   h2 {
     margin-top: 5%;
+    @media screen and (min-width: 320px) and (max-width: 369px) {
+      margin-top: 10%;
+    }
   }
   .crear-img {
     margin-top: 30px;
@@ -148,7 +151,10 @@ body {
     max-height: 250px;
   }
   #redes {
-    @media screen and (min-width: 320px) and (max-width: 500px) {
+    @media screen and (min-width: 320px) and (max-width: 369px) {
+      margin-top: 10%;
+    }
+    @media screen and (min-width: 370px) and (max-width: 500px) {
       margin-top: 30%;
     }
     margin-top: 4%;

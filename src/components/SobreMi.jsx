@@ -23,7 +23,8 @@ function SobreMi() {
           <p className="card-text">
             Como te habrás dado cuenta al principio, soy una persona apasionada
             por la tecnología, me encanta aprender sobre esta porque puedo
-            entender cómo funcionan los dispositivos que a diario utilizamos.
+            entender cómo funcionan los dispositivos que utilizamos a diario y
+            es como tener un superpoder.
           </p>
           <p className="card-text">
             Por otro lado, la mayor parte de mi tiempo libre trato de dedicarlo
@@ -33,9 +34,8 @@ function SobreMi() {
           </p>
           <p className="pb-3 card-text">
             Así mismo me gusta compartir mis conocimientos en matemáticas,
-            programación y música a las personas que me piden ayuda, ya que
-            pienso que esta es una forma de afianzar el aprendizaje y adquirir
-            pensamiento crítico{" "}
+            programación y música , ya que pienso que esta es una forma de
+            afianzar el aprendizaje y adquirir pensamiento crítico{" "}
           </p>
         </div>
       </div>
