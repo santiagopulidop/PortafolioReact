@@ -43,16 +43,21 @@ function SobreMi() {
           </h2>
           <div className="row text-center mt-5">
             <div className="col-sm-12 col-md-6 col-lg-4">
-              <img src={css} alt="css3" className="habilidad" title="Css" />
+              <img src={css} alt="css3" className="habilidad css" title="Css" />
             </div>
             <div className="col-sm-12 col-md-6 col-lg-4">
-              <img src={html} alt="html" className="habilidad" title="HTML" />
+              <img
+                src={html}
+                alt="html"
+                className="habilidad html"
+                title="HTML"
+              />
             </div>
             <div className="col-sm-12 col-md-6 col-lg-4">
               <img
                 src={js}
-                alt="JavaScrip"
-                className="habilidad"
+                alt="JavaScript"
+                className="habilidad javaScript"
                 title="JavaScript"
               />
             </div>
@@ -61,17 +66,23 @@ function SobreMi() {
                 src={bootstrap}
                 alt="Bootstrap"
                 className="habilidad"
+                id="bootstrap"
                 title="Bootstrap"
               />
             </div>
             <div className="mt-4 col-sm-12 col-md-6 col-lg-4">
-              <img src={sass} alt="sass" className="habilidad" title="sass" />
+              <img
+                src={sass}
+                alt="sass"
+                className="habilidad sass"
+                title="sass"
+              />
             </div>
             <div className="mt-4 col-sm-12 col-md-6 col-lg-4">
               <img
                 src={react}
                 alt="React"
-                className="habilidad"
+                className="habilidad react"
                 title="React"
               />
             </div>
@@ -79,15 +90,15 @@ function SobreMi() {
               <img
                 src={python}
                 alt="python"
-                className="habilidad"
+                className="habilidad python"
                 title="Python"
               />
             </div>
             <div className="mt-4 col-sm-12 col-md-6 col-lg-4">
-              <img src={cpp} alt="cpp" className="habilidad" title="C++" />
+              <img src={cpp} alt="cpp" className="habilidad cpp" title="C++" />
             </div>
             <div className="mt-4 col-sm-12 col-md-6 col-lg-4">
-              <img src={git} alt="Git" className="habilidad" title="Git" />
+              <img src={git} alt="Git" className="habilidad git" title="Git" />
             </div>
           </div>
         </div>

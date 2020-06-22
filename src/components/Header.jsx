@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand active" href="/">
         SP
       </a>
       <button
@@ -23,7 +23,7 @@ function Header() {
         id="navbarToggleExternalContent"
       >
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item active">
+          <li className="nav-item">
             <Link className="nav-link" to="/">
               Inicio
             </Link>
@@ -39,9 +39,9 @@ function Header() {
             </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="contact.html">
+            <Link className="nav-link" to="/contacto">
               Contáctame
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

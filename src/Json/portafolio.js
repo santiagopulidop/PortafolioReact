@@ -7,6 +7,8 @@ import markDown from "../images/markDown.png";
 import drumMachine from "../images/drumMachine.png";
 import calculator from "../images/jsReactCalculator.png";
 import pomodoro from "../images/pomodoroTimer.png";
+import pokemon from "../images/litlePokedex.png";
+
 const lista = [
   {
     id: 0,
@@ -42,35 +44,42 @@ const lista = [
     idCss: "quote-machine",
     project: "Quote Machine",
     image: quoteMachine,
-    url: "https://santiagopulidop.github.io/TechnicalDocumentationPage/",
+    url: "https://random-quote-machine-two.now.sh/",
   },
   {
     id: 5,
     idCss: "markdown",
     project: "MarkDown Previewer",
     image: markDown,
-    url: "https://santiagopulidop.github.io/TechnicalDocumentationPage/",
+    url: "https://mark-down-previewer.now.sh/",
   },
   {
     id: 6,
     project: "Drum Machine",
     idCss: "drum-machine",
     image: drumMachine,
-    url: "https://santiagopulidop.github.io/TechnicalDocumentationPage/",
+    url: "https://drum-machine-pi.now.sh/",
   },
   {
     id: 7,
     idCss: "calculator",
     project: "JavaScript Calculator",
     image: calculator,
-    url: "https://santiagopulidop.github.io/TechnicalDocumentationPage/",
+    url: "https://java-script-calculator-red.now.sh/",
   },
   {
     id: 8,
     idCss: "pomodoro",
     project: "Pomodoro Timer",
     image: pomodoro,
-    url: "https://santiagopulidop.github.io/TechnicalDocumentationPage/",
+    url: "https://pomodoro-timer-ten.now.sh/",
+  },
+  {
+    id: 9,
+    idCss: "pokedex",
+    project: "Litle Pokedex",
+    image: pokemon,
+    url: "https://pokemon-api-project.now.sh/",
   },
 ];
 

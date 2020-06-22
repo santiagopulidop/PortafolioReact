@@ -20,7 +20,7 @@ function Hero() {
         </div>{" "}
         <div className="col-12">
           <h3 className="text-center">Desarrollador Front End</h3>
-          <p className="mt-3">
+          <p className="mt-3 text-center">
             Apasionado por la tecnología, la música, el aprendizaje y la
             enseñanza
           </p>

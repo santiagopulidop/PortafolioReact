@@ -9,44 +9,80 @@ body {
   }
 }
 .hero {
-  border: red solid 1px;
+  animation-name: backInDown;
+  animation-duration: 1s;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-#intro {
-  animation-name: example;
-  animation-duration: 2s;
-  animation-timing-function: ease-in;
-}
-
-@keyframes example {
-  from {
-    position: fixed;
-    top: -20px;
-    opacity: 0.2;
-  }
-  to {
-    position: fixed;
-    top: 50%;
-    opacity: 0.5;
+  @media screen and (min-width: 320px) and (max-width: 425px) {
+    margin-top: 40px;
   }
 }
 
 .sobreMi {
+  animation-name: slideInDown;
+  animation-duration: 1s;
   width: 100vw;
   max-width: 70%;
   margin: 8% auto 0 auto;
+  @media screen and (min-width: 320px) and (max-width: 425px) {
+    max-width: 90%;
+    margin-top: 75px;
+  }
 }
 .habilidades {
+  animation-name: slideInDown;
+  animation-duration: 1s;
   width: 100vw;
   max-width: 70%;
-  margin: 2% auto;
+  margin: 6% auto;
+  @media screen and (min-width: 320px) and (max-width: 425px) {
+    max-width: 90%;
+    .html {
+      max-width: 75px;
+      max-height: 100px;
+    }
+    .css {
+      max-width: 75px;
+      max-height: 100px;
+    }
+    .javaScript {
+      max-width: 75px;
+      max-height: 100px;
+    }
+    #bootstrap {
+      max-width: 75px;
+      max-height: 100px;
+    }
+    .sass {
+      max-width: 85px;
+      max-height: 100px;
+    }
+    .react {
+      max-width: 90px;
+      max-height: 100px;
+    }
+    .python {
+      max-width: 85px;
+      max-height: 100px;
+    }
+    .cpp {
+      max-width: 85px;
+      max-height: 100px;
+    }
+    .git {
+      max-width: 85px;
+      max-height: 100px;
+    }
+  }
 }
-
+.habilidad {
+  @media screen and (min-width: 320px) and (max-width: 425px) {
+    margin-top: 20px;
+  }
+}
 .habilidades .habilidad {
   max-height: 120px;
 }
@@ -69,7 +105,7 @@ body {
   display: flex;
 
   justify-content: space-around;
-  margin: 6% auto 0 auto;
+  margin: 0 auto 0 auto;
   flex-wrap: wrap;
   .project {
     margin: 25px;
@@ -88,6 +124,46 @@ body {
       background-size: cover;
       background-position-x: -12px;
       backface-visibility: visible;
+    }
+  }
+}
+
+#contacto-container {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  .crear-img {
+    margin-top: 30px;
+    border: 2px solid darkgrey;
+    border-radius: 20px;
+    max-width: 300px;
+    max-height: 250px;
+  }
+  #redes {
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1.5%;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 70vw;
+
+    .red {
+      width: 50px;
+      border-radius: 50%;
+      &:hover {
+        animation-name: tada;
+        animation-duration: 1s;
+      }
+
+      #footer {
+        position: absolute;
+        bottom: 0;
+      }
     }
   }
 }
