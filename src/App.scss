@@ -131,9 +131,9 @@ body {
 #contacto-container {
   @media screen and (min-width: 320px) and (max-width: 425px) {
     h2 {
-      margin-top: 30%;
+      margin-top: 40%;
     }
-    height: 100vh;
+    margin-top: 10%;
   }
   @media screen and (min-width: 426px) and (max-width: 1023px) {
     h2 {
@@ -153,7 +153,7 @@ body {
   }
   .crear-img {
     @media screen and (min-width: 320px) and (max-width: 425px) {
-      margin-top: 10px;
+      margin-top: 10%;
       max-width: 80%;
     }
     @media screen and (min-width: 426px) and (max-width: 1023px) {
@@ -170,7 +170,7 @@ body {
   #redes {
     @media screen and (min-width: 320px) and (max-width: 425px) {
       max-width: 95%;
-      margin-top: 10%;
+      margin-top: 50%;
       margin-bottom: 20px;
     }
 
