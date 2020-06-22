@@ -11,7 +11,7 @@ function ProyectosPortafolio() {
       >
         Portafolio
       </h2>
-      <div id="portafolio-container">
+      <div id="portafolio-container" className="mb-5">
         {lista.map((i) => {
           return (
             <a href={i.url} target="_blank">

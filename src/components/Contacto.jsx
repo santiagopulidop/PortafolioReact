@@ -9,9 +9,7 @@ function Contacto() {
   }
   return (
     <div id="contacto-container">
-      <h2 className="text-center" style={{ marginTop: "105px" }}>
-        ¿Creamos algo juntos?
-      </h2>
+      <h2 className="text-center">¿Creamos algo juntos?</h2>
       <img src={crearImg} alt="crearImg" className="crear-img" />
       <div id="redes">
         {redesContaco.map((i) => {
