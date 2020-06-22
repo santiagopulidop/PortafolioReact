@@ -20,7 +20,6 @@ function App() {
       <Route path="/sobremi" component={SobreMi} />
       <Route path="/Proyectos" component={ProyectosPortafolio} />
       <Route path="/contacto" component={Contacto} />
-      <Footer />
     </Router>
   );
 }

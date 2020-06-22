@@ -1,6 +1,7 @@
 import React from "react";
 import redesContaco from "../Json/redes";
 import crearImg from "../images/crear.jpg";
+import Footer from "./Footer.jsx";
 
 function Contacto() {
   function showMePosition(e) {
@@ -28,6 +29,7 @@ function Contacto() {
           );
         })}
       </div>
+      <Footer />
     </div>
   );
 }
