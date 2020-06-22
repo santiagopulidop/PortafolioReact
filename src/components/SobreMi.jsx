@@ -8,9 +8,12 @@ import git from "../images/git-icon.svg";
 import react from "../images/react.svg";
 import cpp from "../images/c.svg";
 import python from "../images/python-5.svg";
+import Header from "./Header.jsx";
+
 function SobreMi() {
   return (
     <>
+      <Header />
       <div className="card text-justify sobreMi">
         <div className="card-body">
           <h2 className="text-center mt-3 card-title">

@@ -17,7 +17,7 @@ body {
   align-items: center;
   flex-direction: column;
   @media screen and (min-width: 320px) and (max-width: 425px) {
-    margin-top: 40px;
+    margin-top: 0;
   }
 }
 
@@ -129,38 +129,18 @@ body {
 }
 
 #contacto-container {
-  @media screen and (min-width: 320px) and (max-width: 425px) {
-    h2 {
-      margin-top: 40%;
-    }
-    margin-top: 10%;
-  }
-  @media screen and (min-width: 426px) and (max-width: 1023px) {
-    h2 {
-      margin-top: 140px;
-    }
-    height: 100vh;
-  }
   animation-name: fadeIn;
   animation-duration: 2s;
   display: flex;
   height: 90vh;
   flex-direction: column;
+  justify-content: center;
   justify-items: center;
   align-items: center;
-  .h2 {
-    margin-top: 105px;
+  h2 {
+    margin-top: 5%;
   }
   .crear-img {
-    @media screen and (min-width: 320px) and (max-width: 425px) {
-      margin-top: 10%;
-      max-width: 80%;
-    }
-    @media screen and (min-width: 426px) and (max-width: 1023px) {
-      margin-top: 25px;
-      margin-bottom: 25px;
-    }
-
     margin-top: 30px;
     border: 2px solid darkgrey;
     border-radius: 20px;
@@ -168,12 +148,9 @@ body {
     max-height: 250px;
   }
   #redes {
-    @media screen and (min-width: 320px) and (max-width: 425px) {
-      max-width: 95%;
-      margin-top: 50%;
-      margin-bottom: 20px;
+    @media screen and (min-width: 320px) and (max-width: 500px) {
+      margin-top: 30%;
     }
-
     margin-top: 4%;
     display: flex;
     justify-content: space-evenly;
@@ -183,8 +160,9 @@ body {
     max-width: 70vw;
 
     .red {
-      @media screen and (min-width: 320px) and (max-width: 425px) {
+      @media screen and (min-width: 320px) and (max-width: 500px) {
         width: 40px;
+        margin: 0 10px;
       }
       width: 50px;
       border-radius: 50%;
@@ -198,6 +176,4 @@ body {
 
 .footer {
   min-width: 100%;
-  position: absolute;
-  bottom: 0;
 }
