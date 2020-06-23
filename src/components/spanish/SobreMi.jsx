@@ -19,23 +19,26 @@ function SobreMi() {
           <h2 className="text-center mt-3 card-title">
             <b>Sobre mí</b>
           </h2>
-          <p className="card-text">Gracias por visitar mi sitio web!</p>
+
           <p className="card-text">
-            Como te habrás dado cuenta al principio, soy una persona apasionada
-            por la tecnología, me encanta aprender sobre esta porque puedo
-            entender cómo funcionan los dispositivos que utilizamos a diario y
-            es como tener un superpoder.
+            Bienvenid@ a mi sitio web Gracias por visitarlo
           </p>
           <p className="card-text">
-            Por otro lado, la mayor parte de mi tiempo libre trato de dedicarlo
-            a la lectura y a mejorar mis habilidades en mi guitarra; como buen
-            latino, me gusta mucho la salsa, la cumbia, el son cubano, y para mí
-            es un privilegio poder tocar estos ritmos en mi guitarra.
+            Como te habrás dado cuenta, soy una persona apasionada por la
+            tecnología, me encanta aprender y entender cómo funcionan los
+            dispositivos que a diario utilizamos, ¡Es como tener un superpoder!
+          </p>
+          <p className="card-text">
+            Cuando no estoy programado, la mayor parte de mi tiempo libre trato
+            de dedicarlo a la lectura y a mejorar mis habilidades en la
+            guitarra; como buen latino: me gusta mucho la salsa, la cumbia, el
+            son cubano, y para mí es un privilegio poder tocar estos ritmos en
+            mi guitarra.
           </p>
           <p className="pb-3 card-text">
-            Así mismo me gusta compartir mis conocimientos en matemáticas,
-            programación y música , ya que pienso que esta es una forma de
-            afianzar el aprendizaje y ayudar a las personas.{" "}
+            También me gusta compartir mis conocimientos en matemáticas,
+            programación y música, creo que esta es una buena manera de afianzar
+            los aprendizajes y conocimientos, además de ayudar a otras personas.
           </p>
         </div>
       </div>

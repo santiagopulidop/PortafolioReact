@@ -29,8 +29,7 @@ function Hero() {
               Desarrollador <b>Front End</b>{" "}
             </h3>
             <h5 className="mt-3 text-center">
-              Apasionado por la tecnología, la música, el aprendizaje y la
-              enseñanza
+              Apasionado por la tecnología, el aprendizaje, y la música.
             </h5>
           </div>
         </div>

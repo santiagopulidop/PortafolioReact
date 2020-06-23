@@ -15,7 +15,7 @@ const redesContacto = [
     id: 1,
     red: "instagram",
     img: instagram,
-    url: "https://www.linkedin.com/in/santiago-pulido-pel%C3%A1ez-44684519a/",
+    url: "https://www.instagram.com",
   },
   {
     id: 2,
