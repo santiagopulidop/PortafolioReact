@@ -1,48 +1,46 @@
 import React from "react";
-import css from "../images/css3.svg";
-import html from "../images/html-5.svg";
-import js from "../images/javascript-4.svg";
-import bootstrap from "../images/bootstrap-4.svg";
-import sass from "../images/sass-1.svg";
-import git from "../images/git-icon.svg";
-import react from "../images/react.svg";
-import cpp from "../images/c.svg";
-import python from "../images/python-5.svg";
-import Header from "./Header.jsx";
+import css from "../../images/css3.svg";
+import html from "../../images/html-5.svg";
+import js from "../../images/javascript-4.svg";
+import bootstrap from "../../images/bootstrap-4.svg";
+import sass from "../../images/sass-1.svg";
+import git from "../../images/git-icon.svg";
+import react from "../../images/react.svg";
+import cpp from "../../images/c.svg";
+import python from "../../images/python-5.svg";
+import HeaderEnglish from "./HeaderEnglish.jsx";
 
 function SobreMi() {
   return (
-    <>
-      <Header />
+    <div id="sobre-mi-container">
+      <HeaderEnglish />
       <div className="card text-justify sobreMi">
         <div className="card-body">
           <h2 className="text-center mt-3 card-title">
-            <b>Sobre mí</b>
+            <b>About me</b>
           </h2>
-          <p className="card-text">Gracias por visitar mi sitio web!</p>
+          <p className="card-text">Thanks for visiting my web site!</p>
           <p className="card-text">
-            Como te habrás dado cuenta al principio, soy una persona apasionada
-            por la tecnología, me encanta aprender sobre esta porque puedo
-            entender cómo funcionan los dispositivos que utilizamos a diario y
-            es como tener un superpoder.
+            As you can see, I am passioned by tech, I love learnig about it
+            because this way I can undersantand how devices we use each day
+            works, and it's seems to have a superpower.
           </p>
           <p className="card-text">
-            Por otro lado, la mayor parte de mi tiempo libre trato de dedicarlo
-            a la lectura y a mejorar mis habilidades en mi guitarra; como buen
-            latino, me gusta mucho la salsa, la cumbia, el son cubano, y para mí
-            es un privilegio poder tocar estos ritmos en mi guitarra.
+            On the other hand, my hobbies are reading and improve my guitar
+            skills; as a Latin guy, I like listen to salsa, cumbia, son cubano
+            music, and it's a pleassure for me be able to play them in my
+            guitar.
           </p>
           <p className="pb-3 card-text">
-            Así mismo me gusta compartir mis conocimientos en matemáticas,
-            programación y música , ya que pienso que esta es una forma de
-            afianzar el aprendizaje y adquirir pensamiento crítico{" "}
+            Also I love sharing my math, code and music knowledgment, I think
+            this is a way to clinch things I've learned and helping people.
           </p>
         </div>
       </div>
       <div className="card text-justify habilidades">
         <div className="card-body container-fluid">
           <h2 className="text-center mt-3 card-title">
-            <b>Habilidades</b>
+            <b>Habilities</b>
           </h2>
           <div className="row text-center mt-5">
             <div className="col-sm-12 col-md-6 col-lg-4">
@@ -106,7 +104,7 @@ function SobreMi() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

@@ -1,10 +1,13 @@
 import React from "react";
-import santiagoImg from "../images/santiagopulidop.jpg";
+import santiagoImg from "../../images/santiagopulidop.jpg";
 import Header from "./Header.jsx";
+
+import Banderas from "./Banderas.jsx";
 
 function Hero() {
   return (
     <>
+      <Banderas />
       <Header />
       <div className="hero">
         <div className="imgContainer text-center">
@@ -22,11 +25,13 @@ function Hero() {
             </h2>
           </div>{" "}
           <div className="col-12">
-            <h3 className="text-center">Desarrollador Front End</h3>
-            <p className="mt-3 text-center">
+            <h3 className="text-center">
+              Desarrollador <b>Front End</b>{" "}
+            </h3>
+            <h5 className="mt-3 text-center">
               Apasionado por la tecnología, la música, el aprendizaje y la
               enseñanza
-            </p>
+            </h5>
           </div>
         </div>
       </div>

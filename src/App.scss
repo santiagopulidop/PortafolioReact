@@ -2,6 +2,31 @@ body {
   padding: 0;
 }
 
+#banderas-container {
+  display: flex;
+  position: absolute;
+  top: 55px;
+  right: 0;
+  cursor: pointer;
+  #spanish,
+  #english {
+    width: 30px;
+    height: 50px;
+    margin-right: 5px;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  @media screen and (min-width: 320px) and (max-width: 369px) {
+    top: 70px;
+    #spanish,
+    #english {
+      width: 25px;
+      height: 30px;
+    }
+  }
+}
+
 .imgContainer {
   .photo {
     width: 35%;
@@ -9,6 +34,7 @@ body {
   }
 }
 .hero {
+  font-family: "Fira Sans", sans-serif;
   animation-name: backInDown;
   animation-duration: 1s;
   height: 100vh;
@@ -19,6 +45,10 @@ body {
   @media screen and (min-width: 320px) and (max-width: 425px) {
     margin-top: 0;
   }
+}
+
+#sobre-mi-container {
+  font-family: "Fira Sans", sans-serif;
 }
 
 .sobreMi {
@@ -100,6 +130,9 @@ body {
 }
 
 #portafolio-container {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  font-family: "Fira Sans", sans-serif;
   width: 100vw;
   max-width: 90%;
   display: flex;
@@ -129,6 +162,7 @@ body {
 }
 
 #contacto-container {
+  font-family: "Fira Sans", sans-serif;
   animation-name: fadeIn;
   animation-duration: 2s;
   display: flex;

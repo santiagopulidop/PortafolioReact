@@ -1,14 +1,15 @@
 import React from "react";
-import redesContaco from "../Json/redes";
-import crearImg from "../images/crear.jpg";
+import redesContaco from "../../Json/redes";
+import crearImg from "../../images/crear.jpg";
 import Header from "./Header.jsx";
+import HeaderEnglish from "../english/HeaderEnglish.jsx";
 
-function Contacto() {
+function Contacto(props) {
   return (
     <>
-      <Header />
+      {props.state === true ? <Header /> : <HeaderEnglish />}
       <div id="contacto-container">
-        <h2 className="text-center">¿Creamos algo juntos?</h2>
+        <h1 className="text-center">{props.title}</h1>
         <img src={crearImg} alt="crearImg" className="crear-img" />
         <div id="redes">
           {redesContaco.map((i) => {

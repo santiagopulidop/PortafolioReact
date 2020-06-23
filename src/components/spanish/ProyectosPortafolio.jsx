@@ -1,18 +1,19 @@
 import React from "react";
-import lista from "../Json/portafolio";
+import lista from "../../Json/portafolio";
 import Header from "./Header.jsx";
+import HeaderEnglish from "../english/HeaderEnglish.jsx";
 
-function ProyectosPortafolio() {
+function ProyectosPortafolio(props) {
   console.log(lista);
   return (
     <>
-      <Header />
+      {props.state === true ? <Header /> : <HeaderEnglish />}
       <div id="main-portafolio-container">
         <h2
           className="text-center"
           style={{ marginTop: "80px", textDecoration: "underline" }}
         >
-          Portafolio
+          {props.title}
         </h2>
         <div id="portafolio-container" className="mb-5">
           {lista.map((i) => {
@@ -22,6 +23,7 @@ function ProyectosPortafolio() {
                 target="_blank"
                 key={i.id}
                 rel="noopener noreferrer"
+                style={{ color: "black" }}
               >
                 <div className="project card">
                   <div
