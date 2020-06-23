@@ -21,19 +21,21 @@ function SobreMi() {
           </h2>
           <p className="card-text">Thanks for visiting my web site!</p>
           <p className="card-text">
-            As you can see, I am passioned by tech, I love learnig about it
-            because this way I can undersantand how devices we use each day
-            works, and it's seems to have a superpower.
+            As you can see, I am passionate about technology, I enjoy learning
+            about it because it is like having a superpower and it also helps me
+            understand a great deal of how the devices we use daily actually
+            work.
           </p>
           <p className="card-text">
-            On the other hand, my hobbies are reading and improve my guitar
-            skills; as a Latin guy, I like listen to salsa, cumbia, son cubano
-            music, and it's a pleassure for me be able to play them in my
-            guitar.
+            On the other hand, my hobbies include reading and improving my
+            guitar skills; as a Latin guy I like listening to salsa, cumbia and
+            Cuban music and it's a priviledge to be able to play these musical
+            genres on my guitar
           </p>
           <p className="pb-3 card-text">
-            Also I love sharing my math, code and music knowledgment, I think
-            this is a way to clinch things I've learned and helping people.
+            I also enjoy sharing or imparting my knowledge of mathematics,
+            programming and music, I think this is a wonderful way of retaining
+            what I've learned through helping people.
           </p>
         </div>
       </div>

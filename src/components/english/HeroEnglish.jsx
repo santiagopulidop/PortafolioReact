@@ -29,7 +29,7 @@ function HeroEnlish() {
               <b>Front End</b> Developer{" "}
             </h3>
             <h5 className="mt-3 text-center">
-              Passionate about technology, music, learning and teaching.
+              Passionate about technology, learning, teaching and music.
             </h5>
           </div>
         </div>
