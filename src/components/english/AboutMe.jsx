@@ -42,7 +42,7 @@ function SobreMi() {
       <div className="card text-justify habilidades">
         <div className="card-body container-fluid">
           <h2 className="text-center mt-3 card-title">
-            <b>Habilities</b>
+            <b>Skills</b>
           </h2>
           <div className="row text-center mt-5">
             <div className="col-sm-12 col-md-6 col-lg-4">
