@@ -15,7 +15,7 @@ const redesContacto = [
     id: 1,
     red: "instagram",
     img: instagram,
-    url: "https://www.instagram.com",
+    url: "https://www.instagram.com/santiagopulidop/",
   },
   {
     id: 2,
