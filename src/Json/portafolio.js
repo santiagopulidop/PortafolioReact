@@ -7,6 +7,7 @@ import markDown from "../images/markDown.png";
 import drumMachine from "../images/drumMachine.png";
 import calculator from "../images/jsReactCalculator.png";
 import pomodoro from "../images/pomodoroTimer.png";
+import portafolioVanilla from "../images/portafolioVanilla.png";
 import pokemon from "../images/litlePokedex.png";
 
 const lista = [
@@ -76,6 +77,13 @@ const lista = [
   },
   {
     id: 9,
+    idCss: "portafolio-vanilla",
+    project: "Portafolio Vanilla",
+    image: portafolioVanilla,
+    url: "https://santiagopulidop.github.io/Portafolio/",
+  },
+  {
+    id: 10,
     idCss: "pokedex",
     project: "Litle Pokedex",
     image: pokemon,
