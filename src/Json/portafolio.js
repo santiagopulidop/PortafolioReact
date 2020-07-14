@@ -10,7 +10,7 @@ import pomodoro from "../images/pomodoroTimer.png";
 import portafolioVanilla from "../images/portafolioVanilla.png";
 import pokemon from "../images/litlePokedex.png";
 import progress from "../images/progress.png";
-import weatherForecast from "../images/weatherForecast";
+import weatherForecast from "../images/weatherForecast.png";
 
 const lista = [
   {
