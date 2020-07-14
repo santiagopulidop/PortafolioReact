@@ -14,16 +14,17 @@ import weatherForecast from "../images/weatherForecast.png";
 
 const lista = [
   {
-    id: 10,
-    idCss: "pokedex",
-    project: "Litle Pokedex",
-    image: pokemon,
-    url: "https://pokemon-api-project.now.sh/",
+    id: 6,
+    project: "Drum Machine",
+    idCss: "drum-machine",
+    image: drumMachine,
+    url: "https://drum-machine-pi.now.sh/",
   },
+
   {
     id: 11,
     idCss: "progress",
-    project: "Progress Finanzas Personales",
+    project: "Progress",
     image: progress,
     url: "https://progress-chi.vercel.app/",
   },
@@ -33,6 +34,13 @@ const lista = [
     project: "Weather Forecast",
     image: weatherForecast,
     url: "https://weather-forecast-ten.vercel.app/",
+  },
+  {
+    id: 10,
+    idCss: "pokedex",
+    project: "Litle Pokedex",
+    image: pokemon,
+    url: "https://pokemon-api-project.now.sh/",
   },
   {
     id: 4,
@@ -48,13 +56,7 @@ const lista = [
     image: markDown,
     url: "https://mark-down-previewer.now.sh/",
   },
-  {
-    id: 6,
-    project: "Drum Machine",
-    idCss: "drum-machine",
-    image: drumMachine,
-    url: "https://drum-machine-pi.now.sh/",
-  },
+
   {
     id: 7,
     idCss: "calculator",
