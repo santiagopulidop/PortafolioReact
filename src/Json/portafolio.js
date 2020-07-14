@@ -9,6 +9,8 @@ import calculator from "../images/jsReactCalculator.png";
 import pomodoro from "../images/pomodoroTimer.png";
 import portafolioVanilla from "../images/portafolioVanilla.png";
 import pokemon from "../images/litlePokedex.png";
+import progress from "../images/progress.png";
+import weatherForecast from "../images/weatherForecast";
 
 const lista = [
   {
@@ -88,6 +90,20 @@ const lista = [
     project: "Litle Pokedex",
     image: pokemon,
     url: "https://pokemon-api-project.now.sh/",
+  },
+  {
+    id: 11,
+    idCss: "progress",
+    project: "Progress Finanzas Personales",
+    image: progress,
+    url: "https://progress-chi.vercel.app/",
+  },
+  {
+    id: 12,
+    idCss: "weather-forecast",
+    project: "Weather Forecast",
+    image: weatherForecast,
+    url: "https://weather-forecast-ten.vercel.app/",
   },
 ];
 
