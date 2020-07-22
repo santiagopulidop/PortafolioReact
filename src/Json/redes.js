@@ -1,7 +1,7 @@
 import linkedin from "../images/linkedin.svg";
 import instagram from "../images/instagram.svg";
 import gitHub from "../images/github.svg";
-import wp from "../images/wp.svg";
+/* import wp from "../images/wp.svg"; */
 import facebook from "../images/facebook.svg";
 
 const redesContacto = [
@@ -17,13 +17,13 @@ const redesContacto = [
     img: instagram,
     url: "https://www.instagram.com/santiagopulidop/",
   },
-  {
+  /* {
     id: 2,
     red: "whatsApp",
     img: wp,
     url:
       "https://api.whatsapp.com/send?phone=573122097086&text=Hola%20quiero%20contactarme%20contigo!",
-  },
+  }, */
   {
     id: 3,
     red: "gitHub",
