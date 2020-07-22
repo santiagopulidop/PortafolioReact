@@ -17,35 +17,31 @@ function App() {
   console.log(spanish);
   if (spanish) {
     return (
-      <Router className="App container-fluid p-0">
-        <Route exact path="/">
-          <Hero />
-        </Route>
-        <Route path="/sobremi" component={SobreMi} />
-        <Route path="/Proyectos">
-          <ProyectosPortafolio title="Portafolio" state={spanish} />
-        </Route>
-        <Route path="/contacto">
-          <Contacto title="¿Creamos algo juntos?" state={spanish} />
-        </Route>
+      <div className="App container-fluid p-0">
+        <Hero />
+
+        <SobreMi />
+
+        <ProyectosPortafolio title="Portafolio" state={spanish} />
+
+        <Contacto title="¿Creamos algo juntos?" state={spanish} />
+
         <Footer />
-      </Router>
+      </div>
     );
   } else {
     return (
-      <Router className="App container-fluid p-0">
-        <Route exact path="/">
-          <HeroEnglish />
-        </Route>
-        <Route path="/sobremi" component={AboutME} />
-        <Route path="/Proyectos">
-          <ProyectosPortafolio title="Portfolio" state={spanish} />
-        </Route>
-        <Route path="/contacto">
-          <Contacto title="Let's create something together!" state={spanish} />
-        </Route>
+      <div className="App container-fluid p-0">
+        <HeroEnglish />
+
+        <AboutME />
+
+        <ProyectosPortafolio title="Portfolio" state={spanish} />
+
+        <Contacto title="Let's create something together!" state={spanish} />
+
         <Footer />
-      </Router>
+      </div>
     );
   }
 }

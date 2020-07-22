@@ -9,14 +9,9 @@ function HeroEnlish() {
     <>
       <Banderas />
       <HeaderEnglish />
-      <div className="hero">
+      <div className="hero" id="hero-container">
         <div className="imgContainer text-center">
-          <img
-            src={santiagoImg}
-            alt="myPhoto"
-            className="photo img-fluid rounded-pill"
-            id="santiagoImg"
-          />
+          <img src={santiagoImg} alt="myPhoto" className="photo img-fluid rounded-pill" id="santiagoImg" />
         </div>
         <div id="intro" className="intro mt-4">
           <div className="col-12">
@@ -28,9 +23,7 @@ function HeroEnlish() {
             <h3 className="text-center">
               <b>Front End</b> Developer{" "}
             </h3>
-            <h5 className="mt-3 text-center">
-              Passionate about technology, learning, and music.
-            </h5>
+            <h5 className="mt-3 text-center">Passionate about technology, learning, and music.</h5>
           </div>
         </div>
       </div>

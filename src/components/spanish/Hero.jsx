@@ -9,14 +9,9 @@ function Hero() {
     <>
       <Banderas />
       <Header />
-      <div className="hero">
+      <div className="hero" id="hero-container">
         <div className="imgContainer text-center">
-          <img
-            src={santiagoImg}
-            alt="myPhoto"
-            className="photo img-fluid rounded-pill"
-            id="santiagoImg"
-          />
+          <img src={santiagoImg} alt="myPhoto" className="photo img-fluid rounded-pill" id="santiagoImg" />
         </div>
         <div id="intro" className="intro mt-4">
           <div className="col-12">
@@ -28,9 +23,7 @@ function Hero() {
             <h3 className="text-center">
               Desarrollador <b>Front End</b>{" "}
             </h3>
-            <h5 className="mt-3 text-center">
-              Apasionado por la tecnología, el aprendizaje, y la música.
-            </h5>
+            <h5 className="mt-3 text-center">Apasionado por la tecnología, el aprendizaje, y la música.</h5>
           </div>
         </div>
       </div>

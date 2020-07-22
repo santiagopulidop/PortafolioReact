@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -18,30 +17,27 @@ function Header() {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div
-        className="collapse navbar-collapse"
-        id="navbarToggleExternalContent"
-      >
+      <div className="collapse navbar-collapse" id="navbarToggleExternalContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link className="nav-link" to="/">
+            <a className="nav-link" href="#hero-container">
               Inicio
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/sobremi">
+            <a className="nav-link" href="#sobre-mi-container">
               Más sobre mi
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
-            <Link to="Proyectos" className="nav-link">
+            <a href="#main-portafolio-container" className="nav-link">
               Proyectos
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/contacto">
+            <a className="nav-link" href="#contacto-container">
               Contáctame
-            </Link>
+            </a>
           </li>
         </ul>
       </div>
