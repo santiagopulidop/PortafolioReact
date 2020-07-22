@@ -2,7 +2,8 @@ import linkedin from "../images/linkedin.svg";
 /* import instagram from "../images/instagram.svg"; */
 import gitHub from "../images/github.svg";
 /* import wp from "../images/wp.svg"; */
-import facebook from "../images/facebook.svg";
+/* import facebook from "../images/facebook.svg"; */
+import twitter from "../images/twitter.svg";
 
 const redesContacto = [
   {
@@ -11,12 +12,12 @@ const redesContacto = [
     img: linkedin,
     url: "https://www.linkedin.com/in/santiago-pulido-pel%C3%A1ez-44684519a/",
   },
-  /*   {
+  {
     id: 1,
-    red: "instagram",
-    img: instagram,
-    url: "https://www.instagram.com/santiagopulidop/",
-  }, */
+    red: "twitter",
+    img: twitter,
+    url: "https://twitter.com/santiagop0110",
+  },
   /* {
     id: 2,
     red: "whatsApp",
@@ -30,12 +31,12 @@ const redesContacto = [
     img: gitHub,
     url: "https://github.com/SantiagoPulidoP/",
   },
-  {
+  /*   {
     id: 4,
     red: "facebook",
     img: facebook,
     url: "https://www.facebook.com/santipulido10",
-  },
+  }, */
 ];
 
 export default redesContacto;

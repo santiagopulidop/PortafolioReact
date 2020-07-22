@@ -2,6 +2,11 @@ body {
   padding: 0;
 }
 
+#root {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
 #banderas-container {
   display: flex;
   position: absolute;
@@ -53,6 +58,7 @@ body {
 
 .sobreMi {
   animation-name: slideInDown;
+  box-shadow: 0px 0px 10px grey;
   animation-duration: 1s;
   width: 100vw;
   max-width: 70%;
@@ -63,6 +69,7 @@ body {
   }
 }
 .habilidades {
+  box-shadow: 0px 0px 10px grey;
   animation-name: slideInDown;
   animation-duration: 1s;
   width: 100vw;
@@ -143,6 +150,9 @@ body {
   .project {
     margin: 20px;
     top: 5%;
+    color: #393e46;
+    box-shadow: 5px 3px 10px darkgrey;
+
     &:hover {
       animation-name: pulse;
       animation-duration: 0.8s;
@@ -197,7 +207,7 @@ body {
     padding-top: 1.5%;
     border-radius: 50%;
     width: 100%;
-    max-width: 70vw;
+    max-width: 50vw;
 
     .red {
       @media screen and (min-width: 320px) and (max-width: 500px) {
