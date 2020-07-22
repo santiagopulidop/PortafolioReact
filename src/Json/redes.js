@@ -1,5 +1,5 @@
 import linkedin from "../images/linkedin.svg";
-import instagram from "../images/instagram.svg";
+/* import instagram from "../images/instagram.svg"; */
 import gitHub from "../images/github.svg";
 /* import wp from "../images/wp.svg"; */
 import facebook from "../images/facebook.svg";
@@ -11,12 +11,12 @@ const redesContacto = [
     img: linkedin,
     url: "https://www.linkedin.com/in/santiago-pulido-pel%C3%A1ez-44684519a/",
   },
-  {
+  /*   {
     id: 1,
     red: "instagram",
     img: instagram,
     url: "https://www.instagram.com/santiagopulidop/",
-  },
+  }, */
   /* {
     id: 2,
     red: "whatsApp",
