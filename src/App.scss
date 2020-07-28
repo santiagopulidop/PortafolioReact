@@ -129,10 +129,7 @@ body {
   max-height: 100vh;
 
   .card {
-    width: 18rem;
-  }
-  div .proyecto {
-    border: red, solid 5px;
+    width: 14rem;
   }
 }
 
@@ -142,16 +139,19 @@ body {
   font-family: "Fira Sans", sans-serif;
   width: 100vw;
   max-width: 90%;
-  display: flex;
-
-  justify-content: space-around;
-  margin: 0 auto 0 auto;
+  /* display: flex;
   flex-wrap: wrap;
+  justify-content: space-around; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin: 0 auto 0 auto;
   .project {
-    margin: 20px;
+    margin: 15px;
     top: 5%;
     color: #393e46;
     box-shadow: 5px 3px 10px darkgrey;
+    border-radius: 10px;
+    overflow: hidden;
 
     &:hover {
       animation-name: pulse;
@@ -163,9 +163,9 @@ body {
       }
     }
     .img-project {
+      width: auto;
       background-repeat: no-repeat;
       background-size: cover;
-      background-position-x: -12px;
       backface-visibility: visible;
     }
   }

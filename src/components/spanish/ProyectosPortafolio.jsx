@@ -21,7 +21,6 @@ function ProyectosPortafolio(props) {
                     style={{
                       backgroundImage: `url(${i.image})`,
                       height: "300px",
-                      width: "250px",
                     }}
                     className="img-project card-img-top"
                     id={i.idCss}
