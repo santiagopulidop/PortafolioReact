@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import "animate.css";
 import "./App.scss";
 import { IdiomaContext } from "./components/idiomaContext.jsx";
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import Hero from "./components/spanish/Hero.jsx";
 import SobreMi from "./components/spanish/SobreMi.jsx";
 import ProyectosPortafolio from "./components/spanish/ProyectosPortafolio";

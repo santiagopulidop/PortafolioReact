@@ -4,7 +4,6 @@ import Header from "./Header.jsx";
 import HeaderEnglish from "../english/HeaderEnglish.jsx";
 
 function ProyectosPortafolio(props) {
-  console.log(lista);
   return (
     <>
       {props.state === true ? <Header /> : <HeaderEnglish />}
