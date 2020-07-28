@@ -13,7 +13,6 @@ import AboutME from "./components/english/AboutMe.jsx";
 
 function App() {
   const [spanish] = useContext(IdiomaContext);
-  console.log(spanish);
   if (spanish) {
     return (
       <div className="App container-fluid p-0">
