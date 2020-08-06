@@ -89,17 +89,21 @@ body {
     padding-top: 10px;
     max-width: 85px;
     max-height: 100px;
+    margin-right: 20px;
   }
   .python {
-    max-width: 75px;
+    margin-top: 28px;
+    max-width: 74px;
     max-height: 100px;
   }
   .cpp {
+    margin-top: 25px;
     max-width: 73px;
     max-height: 100px;
   }
   .git {
-    max-width: 77px;
+    margin-top: 25px;
+    max-width: 79px;
     max-height: 100px;
   }
   @media screen and (min-width: 320px) and (max-width: 425px) {
@@ -109,10 +113,13 @@ body {
       max-height: 100px;
     }
     .css {
+      margin-top: 35px;
       max-width: 75px;
       max-height: 100px;
     }
     .javaScript {
+      margin-top: 35px;
+
       max-width: 75px;
       max-height: 100px;
     }
@@ -127,17 +134,21 @@ body {
     .react {
       max-width: 90px;
       max-height: 100px;
+      margin: 30px 0 0 0;
     }
     .python {
-      max-width: 85px;
+      margin-top: 35px;
+      max-width: 80px;
       max-height: 100px;
     }
     .cpp {
-      max-width: 85px;
+      margin-top: 35px;
+      max-width: 75px;
       max-height: 100px;
     }
     .git {
-      max-width: 85px;
+      margin-top: 35px;
+      max-width: 80px;
       max-height: 100px;
     }
   }
@@ -145,6 +156,9 @@ body {
 .habilidad {
   @media screen and (min-width: 320px) and (max-width: 425px) {
     margin-top: 20px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    margin-top: 30px;
   }
 }
 .habilidades .habilidad {

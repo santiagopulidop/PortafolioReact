@@ -42,33 +42,33 @@ function SobreMi() {
             <b>Habilidades</b>
           </h2>
           <div className="row text-center mt-5">
-            <div className="col-sm-12 col-md-6 col-lg-2">
+            <div className="col-sm-12 col-md-4 col-lg-2">
               <img src={html} alt="html" className="habilidad html" title="HTML" />
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-2">
+            <div className="col-sm-12 col-md-4 col-lg-2">
               <img src={css} alt="css3" className="habilidad css" title="Css" />
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-2">
+            <div className="col-sm-12 col-md-4 col-lg-2">
               <img src={sass} alt="sass" className="habilidad sass" title="sass" />
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-2">
+            <div className="col-sm-12 col-md-4 col-lg-2">
               <img src={bootstrap} alt="Bootstrap" className="habilidad" id="bootstrap" title="Bootstrap" />
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-2">
+            <div className="col-sm-12 col-md-4 col-lg-2">
               <img src={js} alt="JavaScript" className="habilidad javaScript" title="JavaScript" />
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-2">
+            <div className="col-sm-12 col-md-4 col-lg-2">
               <img src={react} alt="React" className="habilidad react" title="React" />
             </div>
           </div>
-          <div className="row justify-content-md-center mt-4 mb-2">
-            <div className="col-sm-12 col-md-6 col-lg-2">
+          <div className="row justify-content-md-center text-center mb-2">
+            <div className="col-sm-12 col-md-4 col-lg-2">
               <img src={python} alt="python" className="habilidad python" title="Python" />
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-2">
+            <div className="col-sm-12 col-md-4 col-lg-2">
               <img src={cpp} alt="cpp" className="habilidad cpp" title="C++" />
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-2">
+            <div className="col-sm-12 col-md-4 col-lg-2">
               <img src={git} alt="Git" className="habilidad git" title="Git" />
             </div>
           </div>
