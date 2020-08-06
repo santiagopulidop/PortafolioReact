@@ -19,7 +19,7 @@ function ProyectosPortafolio(props) {
                   <div
                     style={{
                       backgroundImage: `url(${i.image})`,
-                      height: "300px",
+                      height: "230px",
                     }}
                     className="img-project card-img-top"
                     id={i.idCss}

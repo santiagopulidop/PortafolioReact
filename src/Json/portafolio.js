@@ -14,14 +14,6 @@ import weatherForecast from "../images/weatherForecast.png";
 
 const lista = [
   {
-    id: 6,
-    project: "Drum Machine",
-    idCss: "drum-machine",
-    image: drumMachine,
-    url: "https://drum-machine-pi.now.sh/",
-  },
-
-  {
     id: 11,
     idCss: "progress",
     project: "Progress",
@@ -41,6 +33,13 @@ const lista = [
     project: "Litle Pokedex",
     image: pokemon,
     url: "https://pokemon-api-project.now.sh/",
+  },
+  {
+    id: 6,
+    project: "Drum Machine",
+    idCss: "drum-machine",
+    image: drumMachine,
+    url: "https://drum-machine-pi.now.sh/",
   },
   {
     id: 4,
